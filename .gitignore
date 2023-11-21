@@ -1,0 +1,41 @@
+# Node modules and dependencies
+/node_modules
+
+# Compiled output
+/dist
+/tmp
+
+# Logs
+/logs
+*.log
+
+# Compiled TypeScript files
+*.js
+*.js.map
+
+# Editor-specific files
+.idea
+.vscode
+
+# Configuration files
+angular.json
+.angular-cli.json
+
+# Environment variables
+src/environments/*.ts
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Visual Studio Code settings
+.vscode/settings.json
+
+# Angular testing files
+karma.conf.js
+protractor.conf.js
+
+# Cache and build directories
+.cache/
+out-tsc/
+.angular/cache/14.1.1/*

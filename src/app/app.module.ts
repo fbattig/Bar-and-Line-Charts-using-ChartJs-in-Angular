@@ -7,9 +7,10 @@ import { HelloComponent } from './hello.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { LineChartComponent } from './line-chart/line-chart.component';
 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, BarChartComponent, LineChartComponent ],
+  declarations: [ AppComponent, HelloComponent, BarChartComponent, LineChartComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

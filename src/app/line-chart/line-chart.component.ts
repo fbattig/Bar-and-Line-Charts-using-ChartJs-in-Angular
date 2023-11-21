@@ -13,11 +13,11 @@ export class LineChartComponent implements OnInit {
   ngOnInit(): void {
     this.createChart();
   }
-  public chart: any;
+  public chartLine: any;
 
   createChart(){
   
-    this.chart = new Chart("MyChart", {
+    this.chartLine = new Chart("MyChartLine", {
       type: 'line', //this denotes tha type of chart
 
       data: {// values on X-Axis

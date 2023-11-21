@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import Chart from 'chart.js/auto';
+//import 'chartjs-chart-horizontal-bar';
 //or
 // import Chart from 'chart.js'
 
@@ -15,11 +16,11 @@ export class BarChartComponent implements OnInit {
   ngOnInit(): void {
     this.createChart();
   }
-  public chart: any;
+  public chartBar: any;
 
   createChart(){
   
-    this.chart = new Chart("MyChart", {
+    this.chartBar = new Chart("MyChartBar", {
       type: 'bar', //this denotes tha type of chart
 
       data: {// values on X-Axis
